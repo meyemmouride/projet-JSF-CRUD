@@ -1,0 +1,12 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <h:outputStylesheet library="css" name="Style.css"/>
+</h:head>
+<h:form>
+    <div class="button-container">
+    <h:commandButton value="English" action="#{language.changeLanguage('en')}" styleClass="small-button" />
+    <h:commandButton value="Français" action="#{language.changeLanguage('fr')}" styleClass="small-button" />
+    </div>
+</h:form>
+</html>
